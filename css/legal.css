@@ -1,0 +1,157 @@
+/* ============================================================
+   Páginas legales: aviso-de-privacidad.html y terminos-de-uso.html
+   Archivo nuevo: css/legal.css  (se carga después de css/styles.css)
+   ============================================================ */
+
+.legal-page {
+  background-color: var(--azul-marino);
+  color: var(--gris-claro);
+  padding: 4.5rem 0 5rem;
+}
+
+.legal-page .container {
+  max-width: 900px;
+}
+
+/* --- Encabezado --- */
+.legal-header {
+  padding-bottom: 2.5rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid rgba(217, 217, 217, 0.14);
+}
+
+.legal-eyebrow {
+  margin: 0 0 0.9rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: rgba(217, 217, 217, 0.55);
+}
+
+.legal-titulo {
+  margin: 0 0 1rem;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  line-height: 1.1;
+  color: var(--blanco);
+}
+
+.legal-fecha {
+  margin: 0;
+  font-size: 0.8rem;
+  color: rgba(217, 217, 217, 0.5);
+}
+
+/* --- Cuerpo --- */
+.legal-contenido h2 {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  color: var(--blanco);
+  margin: 3rem 0 1rem;
+}
+
+.legal-contenido h2:first-child {
+  margin-top: 0;
+}
+
+.legal-contenido p {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: rgba(217, 217, 217, 0.85);
+  margin: 0 0 1.15rem;
+  text-wrap: pretty;
+}
+
+.legal-contenido ul {
+  margin: 0 0 1.5rem;
+  padding-left: 1.25rem;
+}
+
+.legal-contenido li {
+  font-size: 1rem;
+  line-height: 1.85;
+  color: rgba(217, 217, 217, 0.85);
+  margin-bottom: 0.6rem;
+}
+
+.legal-contenido li::marker {
+  color: var(--rojo-carmesi);
+}
+
+.legal-contenido strong {
+  color: var(--blanco);
+  font-weight: 700;
+}
+
+.legal-contenido a {
+  color: var(--blanco);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.legal-contenido a:hover {
+  color: var(--gris-claro);
+}
+
+/* --- Párrafo destacado --- */
+.legal-nota {
+  border-left: 2px solid var(--rojo-vino);
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 1.25rem 1.5rem;
+  margin: 1.75rem 0 !important;
+}
+
+/* --- Caja de contacto --- */
+.legal-contacto-box {
+  margin-top: 3.5rem;
+  padding: 1.75rem;
+  border: 1px solid rgba(217, 217, 217, 0.18);
+  border-radius: 3px;
+}
+
+.legal-contacto-box p:last-child {
+  margin-bottom: 0;
+  line-height: 2;
+}
+
+.legal-label {
+  font-size: 0.7rem !important;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: rgba(217, 217, 217, 0.6) !important;
+  margin-bottom: 1rem !important;
+}
+
+/* --- Volver --- */
+.legal-volver {
+  margin-top: 3rem !important;
+}
+
+.legal-volver a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  color: var(--gris-claro);
+}
+
+.legal-volver a:hover {
+  color: var(--blanco);
+}
+
+/* --- Pie --- */
+.legal-footer {
+  background-color: var(--azul-marino);
+  padding: 0;
+}
+
+.legal-footer .footer-bottom {
+  margin-top: 0;
+}
