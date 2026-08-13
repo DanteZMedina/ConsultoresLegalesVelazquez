@@ -677,7 +677,7 @@ img {
 
 .mapa-wrap iframe {
   display: block;
-  filter: grayscale(1) brightness(0.55) contrast(1.05);
+  /*filter: grayscale(1) brightness(0.55) contrast(1.05);*/
 }
 
 /* --- Formulario --- */
