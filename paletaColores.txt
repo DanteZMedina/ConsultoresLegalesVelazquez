@@ -1,0 +1,9 @@
+| Color | Nombre sugerido          | HEX       | RGB           | Muestra |
+| ----- | ------------------------ | --------- | ------------- | ------- |
+| 🔵    | **Azul Marino Profundo** | `#06263A` | 6, 38, 58     | 🔵      |
+| 🔷    | **Azul Petróleo**        | `#0F364E` | 15, 54, 78    | 🔷      |
+| 🔴    | **Rojo Vino / Borgoña**  | `#850F15` | 133, 15, 21   | 🔴      |
+| 🟥    | **Rojo Carmesí Oscuro**  | `#9A181D` | 154, 24, 29   | 🟥      |
+| ⚫     | **Negro Azulado**        | `#000713` | 0, 7, 19      | ⚫       |
+| ⚪     | **Blanco**               | `#FFFFFF` | 255, 255, 255 | ⚪       |
+| 🩶    | **Gris Claro**           | `#D9D9D9` | 217, 217, 217 | 🩶      |
