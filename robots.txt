@@ -1,6 +1,4 @@
-# TODO: actualizar la URL del sitemap con el dominio real una vez publicado
-# (GitHub Pages o dominio propio)
 User-agent: *
 Allow: /
 
-Sitemap: https://TU-USUARIO.github.io/NOMBRE-REPO/sitemap.xml
+Sitemap: https://consultoreslegalesvelazquez.com/sitemap.xml

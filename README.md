@@ -51,13 +51,7 @@ python -m http.server 8000
 - **Contacto**: datos de contacto, mapa embebido de Google Maps, y formulario que arma un
   mensaje de WhatsApp prellenado con los datos capturados.
 
-## Pendientes
 
-- [ ] Foto real del abogado (hay un placeholder con ícono de silueta).
-- [ ] Testimonios reales de clientes (hay 3 de ejemplo, marcados como ilustrativos).
-- [ ] Actualizar el dominio de las etiquetas SEO (`<link rel="canonical">`, Open Graph,
-  `robots.txt`, `sitemap.xml`) una vez que el sitio esté publicado en GitHub Pages o en un
-  dominio propio — actualmente usan un marcador de posición (`TU-USUARIO.github.io/NOMBRE-REPO`).
 
 ## Nota
 
